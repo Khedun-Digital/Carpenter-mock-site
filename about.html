@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en-ZA">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About | FastMove Carpenters</title>
+    <meta name="description" content="About FastMove Carpenters in Pietermaritzburg. Our story, values, and team.">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <script defer src="assets/js/main.js"></script>
+</head>
+<body class="font-body text-neutral-dark bg-white">
+    <!-- Navigation Bar -->
+    <nav class="sticky top-0 z-40 bg-white shadow-sm">
+        <div class="container mx-auto px-4 py-4 flex justify-between items-center">
+            <div class="logo-mark">
+                <div class="monogram">JFC</div>
+                <h1 class="text-xl font-semibold">FastMove <span class="text-primary">Carpenters</span></h1>
+            </div>
+            <div class="hidden md:flex space-x-8">
+                <a href="index.html" class="nav-link font-medium">Home</a>
+                <a href="services.html" class="nav-link font-medium">Services</a>
+                <a href="portfolio.html" class="nav-link font-medium">Portfolio</a>
+                <a href="pricing.html" class="nav-link font-medium">Pricing</a>
+                <a href="about.html" class="nav-link font-medium">About</a>
+                <a href="contact.html" class="nav-link font-medium">Contact</a>
+                <a href="quote.html" class="bg-primary text-white px-6 py-2 rounded-md font-semibold transition-all hover:bg-opacity-90">Get a Quote</a>
+            </div>
+            <div class="md:hidden">
+                <button id="menu-toggle">
+                    <i data-feather="menu"></i>
+                </button>
+            </div>
+        </div>
+        <div id="mobile-menu" class="md:hidden hidden border-t border-gray-200 bg-white">
+            <div class="px-4 py-3 space-y-2">
+                <a href="index.html" class="block">Home</a>
+                <a href="services.html" class="block">Services</a>
+                <a href="portfolio.html" class="block">Portfolio</a>
+                <a href="pricing.html" class="block">Pricing</a>
+                <a href="about.html" class="block">About</a>
+                <a href="contact.html" class="block">Contact</a>
+                <a href="quote.html" class="block font-semibold text-primary">Get a Quote</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- About Hero -->
+    <section class="py-32 bg-gradient-to-r from-primary to-neutral-dark relative overflow-hidden">
+        <div class="absolute inset-0 bg-hero-about bg-cover opacity-20"></div>
+        <div class="container mx-auto px-4 z-10">
+            <div class="max-w-4xl mx-auto text-center text-white">
+                <h1 class="text-4xl md:text-5xl font-heading font-bold mb-6">Our Carpentry Craft & Values</h1>
+                <p class="text-xl max-w-2xl mx-auto mb-8">Joachim FastMove Carpenters: Premium workmanship delivered with integrity in Pietermaritzburg</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Joachim Story -->
+    <section class="py-20">
+        <div class="container mx-auto px-4">
+            <div class="max-w-5xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+                <div>
+                    <span class="text-accent font-heading font-bold block mb-2">Our Founder</span>
+                    <h2 class="text-4xl font-heading font-bold mb-6">Joachim Ruzwe: Master Craftsman</h2>
+                    <p class="text-lg mb-4">Born and raised in KZN, Joachim brings over 15 years of woodworking expertise to every project. Trained under master European craftsmen before returning to Pietermaritzburg, he founded FastMove Carpenters to solve a local gap: premium carpentry without the months-long wait times.</p>
+                    <blockquote class="border-l-4 border-accent pl-6 my-8">
+                        <p class="text-2xl font-heading italic">"Wood doesn't lie. Either the joint fits or it doesn't. We believe in building carpentry solutions that stand as honestly as the timber itself."</p>
+                    </blockquote>
+                    <p>Today, Joachim personally oversees every project from initial measurements to final finishes, ensuring FastMove's high standards are always met.</p>
+                </div>
+                <div class="rounded-3xl overflow-hidden border-8 border-white shadow-xl">
+                    <img src="assets/img/hero-about.svg" alt="Joachim Ruzwe" class="w-full h-auto">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Our Values -->
+    <section class="py-20 bg-light">
+        <div class="container mx-auto px-4">
+            <div class="max-w-3xl mx-auto text-center mb-16">
+                <span class="inline-block py-1 px-3 bg-accent text-neutral-dark rounded-full mb-4 text-sm font-semibold">Our Commitments</span>
+                <h2 class="text-4xl font-heading font-bold mb-6">FastMove Foundations</h2>
+                <p class="text-xl">The principles guiding our work for Pietermaritzburg clients</p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
+                <!-- Value Card 1 -->
+                <div class="bg-white border border-gray-200 rounded-xl p-8 shadow-sm flex flex-col">
+                    <div class="text-primary mb-6">
+                        <i data-feather="tool" width="40" height="40"></i>
+                    </div>
+                    <h3 class="text-2xl font-heading font-bold mb-4">Craftsmanship</h3>
+                    <p class="mb-6 flex-grow">Precision joinery techniques, tightly toleranced fittings, and hand-finished surfaces on every project. We maintain 100+ quality checkpoints during fabrication and install.</p>
+                    <span class="bg-primary bg-opacity-10 text-primary px-4 py-2 rounded-full text-sm w-max">Traditional Techniques • Quality Materials</span>
+                </div>
+                
+                <!-- More value cards... -->
+            </div>
+            
+            <div class="mt-24 max-w-4xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="text-center px-4 py-8 border border-gray-200 rounded-xl">
+                    <div class="text-5xl font-heading font-bold mb-4 text-primary">95%</div>
+                    <div class="font-semibold mb-2">Project on-time delivery</div>
+                    <p class="text-gray-600 text-sm">Through lean scheduling algorithms</p>
+                </div>
+                <!-- More stats... -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Team CTA -->
+    <section class="py-20 bg-neutral-dark text-white">
+        <div class="container mx-auto px-4">
+            <div class="max-w-4xl mx-auto text-center">
+                <h2 class="text-3xl md:text-4xl font-heading font-bold mb-6">Partner With Reliable Craftsmen</h2>
+                <p class="text-xl max-w-2xl mx-auto mb-10">Get your job right-first-time with our experienced team</p>
+                <div class="flex flex-col sm:flex-row justify-center gap-4">
+                    <a href="contact.html" class="inline-flex items-center justify-center bg-accent text-neutral-dark px-8 py-4 rounded-lg font-semibold hover:bg-white transition">
+                        Meet Our Team
+                        <i data-feather="users" class="ml-2 w-5 h-5"></i>
+                    </a>
+                    <a href="quote.html" class="inline-flex items-center justify-center bg-primary text-white px-8 py-4 rounded-lg font-semibold hover:bg-opacity-90 transition">
+                        Start Your Project
+                        <i data-feather="arrow-right" class="ml-2 w-5 h-5"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-neutral-dark text-white pt-16 pb-10 mt-20">
+        <div class="container mx-auto px-4">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <div class="md:col-span-2">
+                    <div class="logo-mark mb-4">
+                        <div class="monogram">JFC</div>
+                        <h1 class="text-xl font-semibold">FastMove <span class="text-accent">Carpenters</span></h1>
+                    </div>
+                    <p class="text-gray-400 mb-4 max-w-md">Professional carpentry services for KwaZulu-Natal homes and businesses. Proudly serving Pietermaritzburg since 2024.</p>
+                    <div class="mb-4">
+                        <div class="flex items-center mb-2">
+                            <i data-feather="map-pin" class="w-4 h-4 mr-2 text-accent"></i>
+                            <p>19 Syndicate, Pietermaritzburg, KZN, 3201</p>
+                        </div>
+                        <div class="flex items-center mb-2">
+                            <i data-feather="phone" class="w-4 h-4 mr-2 text-accent"></i>
+                            <a href="tel:+27-XX-XXX-XXXX" class="hover:text-accent transition">+27-XX-XXX-XXXX</a>
+                        </div>
+                        <div class="flex items-center">
+                            <i data-feather="mail" class="w-4 h-4 mr-2 text-accent"></i>
+                            <a href="mailto:hello@fastmovecarpenters.co.za" class="hover:text-accent transition">hello@fastmovecarpenters.co.za</a>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <h3 class="font-heading font-bold text-lg mb-4 text-accent">Quick Links</h3>
+                    <ul class="space-y-2">
+                        <li><a href="index.html" class="hover:text-accent transition">Home</a></li>
+                        <li><a href="services.html" class="hover:text-accent transition">Services</a></li>
+                        <li><a href="portfolio.html" class="hover:text-accent transition">Portfolio</a></li>
+                        <li><a href="pricing.html" class="hover:text-accent transition">Pricing Guide</a></li>
+                        <li><a href="about.html" class="hover:text-accent transition">About Us</a></li>
+                        <li><a href="contact.html" class="hover:text-accent transition">Contact</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="font-heading font-bold text-lg mb-4 text-accent">Our Location</h3>
+                    <div class="map-container bg-gray-300">
+                        <div class="map-overlay"></div>
+                    </div>
+                    <div class="mt-4">
+                        <h4 class="font-bold text-white mb-1">Hours:</h4>
+                        <p class="text-gray-300">Mon-Fri: 8AM-5PM</p>
+                        <p class="text-gray-300">Saturday: 8AM-1PM</p>
+                    </div>
+                    <a href="https://wa.me/27XXXXXXXXX" class="mt-4 inline-flex items-center justify-center px-4 py-3 bg-primary rounded-md hover:bg-opacity-90 transition w-full">
+                        <i data-feather="message-square" class="w-5 h-5 mr-2"></i> Message us
+                    </a>
+                </div>
+            </div>
+            <div class="border-t border-gray-700 mt-10 pt-6">
+                <div class="flex flex-col md:flex-row justify-between items-center gap-4">
+                    <div class="text-gray-400 text-sm">
+                        Reg No.: 2024/791366/07 | Tax No.: 9213686273 &copy; 2024 Joachim FastMove Carpenters
+                    </div>
+                    <div class="flex space-x-4">
+                        <a href="#" class="text-gray-400 hover:text-white transition">
+                            <i data-feather="facebook"></i>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-white transition">
+                            <i data-feather="instagram"></i>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-white transition">
+                            <i data-feather="linkedin"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+</body>
+</html>

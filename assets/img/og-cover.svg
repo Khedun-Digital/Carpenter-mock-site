@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0F6F6F"/>
+      <stop offset="100%" stop-color="#1C1C1C"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#g)"/>
+  <g transform="translate(600,260)" text-anchor="middle">
+    <rect x="-40" y="-40" width="80" height="80" rx="40" fill="#0F6F6F" stroke="#E0A100" stroke-width="6"/>
+    <text x="0" y="10" fill="#E0A100" font-family="Playfair Display, serif" font-weight="700" font-size="28">JFC</text>
+  </g>
+  <text x="50%" y="380" dominant-baseline="middle" text-anchor="middle" fill="#ffffff" font-family="Playfair Display, serif" font-weight="700" font-size="54">FastMove Carpenters</text>
+  <text x="50%" y="430" dominant-baseline="middle" text-anchor="middle" fill="#E0A100" font-family="Inter, Arial, sans-serif" font-size="22">Kitchens • Cupboards • Decking • Doors</text>
+</svg>
+

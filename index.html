@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en-ZA">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FastMove Carpenters | Kitchens, Cupboards, Decking in Pietermaritzburg</title>
+    <meta name="description" content="FastMove Carpenters builds custom kitchens, cupboards, doors, and decking in Pietermaritzburg with fast turnaround and premium workmanship.">
+    <link rel="canonical" href="https://fastmovecarpenters.github.io/">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <meta property="og:title" content="FastMove Carpenters">
+    <meta property="og:description" content="Kitchens, built-ins, doors, decks — made to measure in Pietermaritzburg.">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="/assets/img/og-cover.svg">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <script>
+        tailwind.config = {
+          theme: {
+            extend: {
+              colors: {
+                primary: '#0F6F6F',
+                accent: '#E0A100',
+                'neutral-dark': '#1C1C1C',
+                neutral: '#6B7280',
+                light: '#F7F7F7',
+                white: '#FFFFFF'
+              },
+              fontFamily: {
+                heading: ['Playfair Display', 'serif'],
+                body: ['Inter', 'sans-serif']
+              }
+            }
+          }
+        }
+    </script>
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "LocalBusiness",
+      "name": "FastMove Carpenters",
+      "url": "https://fastmovecarpenters.co.za",
+      "telephone": "+27-XX-XXX-XXXX",
+      "address": {
+        "@type": "PostalAddress",
+        "streetAddress": "19 Syndicate",
+        "addressLocality": "Pietermaritzburg",
+        "addressRegion": "KwaZulu-Natal",
+        "postalCode": "3201",
+        "addressCountry": "ZA"
+      },
+      "areaServed": "ZA-KZN",
+      "priceRange": "R",
+      "openingHours": "Mo-Fr 08:00-17:00, Sa 08:00-13:00",
+      "image": "/assets/img/og-cover.svg"
+    }
+    </script>
+    <script defer src="assets/js/main.js"></script>
+</head>
+<body class="font-body text-neutral-dark bg-light">
+    <!-- Navigation Bar -->
+    <nav class="sticky top-0 z-40 bg-white shadow-sm">
+        <div class="container mx-auto px-4 py-4 flex justify-between items-center">
+            <div class="logo-mark">
+                <div class="monogram">JFC</div>
+                <h1 class="text-xl font-semibold">FastMove <span class="text-primary">Carpenters</span></h1>
+            </div>
+            
+            <div class="hidden md:flex space-x-8">
+                <a href="index.html" class="nav-link font-medium">Home</a>
+                <a href="services.html" class="nav-link font-medium">Services</a>
+                <a href="portfolio.html" class="nav-link font-medium">Portfolio</a>
+                <a href="pricing.html" class="nav-link font-medium">Pricing</a>
+                <a href="about.html" class="nav-link font-medium">About</a>
+                <a href="contact.html" class="nav-link font-medium">Contact</a>
+                <a href="quote.html" class="bg-primary text-white px-6 py-2 rounded-md font-semibold transition-all hover:bg-opacity-90">Get a Quote</a>
+            </div>
+            
+            <div class="md:hidden">
+                <button id="menu-toggle">
+                    <i data-feather="menu"></i>
+                </button>
+            </div>
+        </div>
+        <div id="mobile-menu" class="md:hidden hidden border-t border-gray-200 bg-white">
+            <div class="px-4 py-3 space-y-2">
+                <a href="index.html" class="block">Home</a>
+                <a href="services.html" class="block">Services</a>
+                <a href="portfolio.html" class="block">Portfolio</a>
+                <a href="pricing.html" class="block">Pricing</a>
+                <a href="about.html" class="block">About</a>
+                <a href="contact.html" class="block">Contact</a>
+                <a href="quote.html" class="block font-semibold text-primary">Get a Quote</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="min-h-screen bg-gradient-to-r from-primary to-neutral-dark flex items-center relative overflow-hidden">
+        <div class="absolute inset-0 bg-hero-home bg-cover opacity-20"></div>
+        <div class="container mx-auto px-4 py-28 md:py-36 z-10">
+            <div class="max-w-4xl mx-auto text-center">
+                <h1 class="text-4xl md:text-5xl lg:text-6xl font-heading font-bold text-white mb-6" data-aos="fade-up">Quality Carpentry. Fast Turnaround.</h1>
+                <p class="text-xl md:text-2xl font-medium text-accent mb-10 max-w-3xl mx-auto" data-aos="fade-up" data-aos-delay="100">Kitchens, built-ins, doors, decks — made to measure in Pietermaritzburg</p>
+                
+                <div class="flex flex-col sm:flex-row justify-center gap-4 mb-10" data-aos="fade-up" data-aos-delay="200">
+                    <a href="quote.html" class="bg-accent text-neutral-dark px-8 py-4 rounded-lg font-semibold text-lg shadow-lg transition-all hover:bg-white">Get a Free Quote</a>
+                    <a href="https://wa.me/27XXXXXXXXX" class="bg-white text-primary px-8 py-4 rounded-lg font-semibold text-lg flex items-center justify-center transition-all hover:bg-opacity-90">
+                        <i data-feather="message-square" class="mr-2"></i> WhatsApp Us
+                    </a>
+                </div>
+                
+                <div class="flex flex-wrap justify-center text-white font-medium mb-4" data-aos="fade-up" data-aos-delay="300">
+                    <span class="trust-badge">Registered Company</span>
+                    <span class="trust-badge">Insured</span>
+                    <span class="trust-badge">Safety First</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Preview -->
+    <section class="py-20 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-heading font-bold mb-4" data-aos="fade-up">Expert Carpentry Services</h2>
+                <p class="text-lg max-w-2xl mx-auto" data-aos="fade-up" data-aos-delay="100">Precision craftsmanship delivered with unbeatable speed across Pietermaritzburg</p>
+            </div>
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                <!-- Kitchen Card -->
+                <div class="service-card bg-light border border-gray-200 rounded-2xl p-8 transition-all duration-300 " data-aos="zoom-in" data-aos-delay="0">
+                    <div class="text-accent mb-6">
+                        <i data-feather="coffee" width="48" height="48"></i>
+                    </div>
+                    <h3 class="text-2xl font-heading font-bold mb-4">Kitchens & Cabinetry</h3>
+                    <p class="text-gray-600 mb-6">Design-to-installation kitchen solutions with premium finishing</p>
+                    <div class="flex flex-wrap gap-2 mb-6">
+                        <span class="bg-primary bg-opacity-10 text-primary px-3 py-1 rounded-md text-sm">7-21 days</span>
+                        <span class="bg-primary bg-opacity-10 text-primary px-3 py-1 rounded-md text-sm">From R35k</span>
+                    </div>
+                    <a href="services.html#kitchens" class="text-accent font-semibold flex items-center">View details 
+                        <i data-feather="arrow-right" width="20" height="20" class="ml-2"></i>
+                    </a>
+                </div>
+                
+                <!-- Built-ins Card -->
+                <div class="service-card bg-light border border-gray-200 rounded-2xl p-8 transition-all duration-300" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="text-accent mb-6">
+                        <i data-feather="package" width="48" height="48"></i>
+                    </div>
+                    <h3 class="text-2xl font-heading font-bold mb-4">Built-in Cupboards</h3>
+                    <p class="text-gray-600 mb-6">Custom storage solutions maximizing your space potential</p>
+                    <div class="flex flex-wrap gap-2 mb-6">
+                        <span class="bg-primary bg-opacity-10 text-primary px-3 py-1 rounded-md text-sm">5-14 days</span>
+                        <span class="bg-primary bg-opacity-10 text-primary px-3 py-1 rounded-md text-sm">From R12k</span>
+                    </div>
+                    <a href="services.html#builtins" class="text-accent font-semibold flex items-center">View details 
+                        <i data-feather="arrow-right" width="20" height="20" class="ml-2"></i>
+                    </a>
+                </div>
+                
+                <!-- Decking Card -->
+                <div class="service-card bg-light border border-gray-200 rounded-2xl p-8 transition-all duration-300" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="text-accent mb-6">
+                        <i data-feather="anchor" width="48" height="48"></i>
+                    </div>
+                    <h3 class="text-2xl font-heading font-bold mb-4">Decking & Exterior</h3>
+                    <p class="text-gray-600 mb-6">Hardwood decking that withstands KZN's climate beautifully</p>
+                    <div class="flex flex-wrap gap-2 mb-6">
+                        <span class="bg-primary bg-opacity-10 text-primary px-3 py-1 rounded-md text-sm">3-10 days</span>
+                        <span class="bg-primary bg-opacity-10 text-primary px-3 py-1 rounded-md text-sm">From R1.5k/m²</span>
+                    </div>
+                    <a href="services.html#decking" class="text-accent font-semibold flex items-center">View details 
+                        <i data-feather="arrow-right" width="20" height="20" class="ml-2"></i>
+                    </a>
+                </div>
+                
+                <!-- More Services... -->
+            </div>
+            
+            <div class="text-center mt-16">
+                <a href="services.html" class="inline-flex items-center justify-center px-8 py-4 border border-primary text-primary font-semibold rounded-md hover:bg-primary hover:text-white transition-all">
+                    Explore all 6 services
+                    <i data-feather="arrow-right" class="ml-2 w-5 h-5"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Highlights -->
+    <section class="py-20 bg-light">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-heading font-bold mb-4" data-aos="fade-up">Our Transforming Work</h2>
+                <p class="text-lg max-w-2xl mx-auto" data-aos="fade-up" data-aos-delay="100">Real results delivered to Pietermaritzburg homeowners and businesses</p>
+            </div>
+            
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-10">
+                <!-- Before/After Interactive Segment -->
+                <div class="before-after rounded-2xl overflow-hidden relative">
+                    <div style="background: linear-gradient(90deg, #1C1C1C 0%, transparent 50%), url('assets/img/before.svg') left/cover no-repeat, url('assets/img/after.svg') right/cover no-repeat; width: 100%; height: 100%;"></div>
+                    <div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white bg-primary bg-opacity-80 px-4 py-2 rounded-full">
+                        Drag to reveal
+                    </div>
+                </div>
+                
+                <!-- Project Highlights -->
+                <div>
+                    <div class="mb-8">
+                        <span class="bg-white text-primary px-4 py-1 rounded-full text-sm font-semibold inline-block mb-6">Featured</span>
+                        <h3 class="text-3xl font-heading font-bold mb-4">Scottsville Kitchen Transformation</h3>
+                        <p class="text-lg text-gray-600 mb-6">Complete kitchen renovation delivered in just 7 days featuring custom cabinetry and premium finishes.</p>
+                        <ul class="space-y-2 mb-8">
+                            <li class="flex items-center">
+                                <i data-feather="zap" class="text-accent mr-2"></i>
+                                Delivered in record time: 7 days from measure to install
+                            </li>
+                            <li class="flex items-center">
+                                <i data-feather="award" class="text-accent mr-2"></i>
+                                5-star client satisfaction rating
+                            </li>
+                            <li class="flex items-center">
+                                <i data-feather="dollar-sign" class="text-accent mr-2"></i>
+                                Within budget: 15% below typical quotes
+                            </li>
+                        </ul>
+                        <div class="flex flex-wrap gap-4">
+                            <a href="portfolio.html" class="flex items-center px-6 py-3 bg-primary text-white rounded-lg font-semibold hover:bg-opacity-90 transition-all">
+                                View Project
+                                <i data-feather="arrow-right" class="ml-2 w-4 h-4"></i>
+                            </a>
+                            <a href="services.html#kitchens" class="flex items-center px-6 py-3 border border-primary text-primary rounded-lg font-semibold hover:bg-primary hover:text-white transition-all">
+                                Book similar project
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials -->
+    <section class="py-20 bg-primary text-white">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-16">
+                <span class="inline-block py-1 px-3 bg-white bg-opacity-20 rounded-full mb-4">Client Love</span>
+                <h2 class="text-4xl font-heading font-bold mb-4">What Our Customers Say</h2>
+            </div>
+            
+            <div class="testimonial-slider flex overflow-x-auto space-x-8 py-8 pb-10">
+                <!-- Testimonial Item -->
+                <div class="bg-white bg-opacity-10 p-8 rounded-2xl min-w-[90%] md:min-w-[60%] lg:min-w-[45%] flex-shrink-0">
+                    <div class="flex mb-6">
+                        <div class="flex text-accent">
+                            <i data-feather="star" class="fill-current"></i>
+                            <i data-feather="star" class="fill-current"></i>
+                            <i data-feather="star" class="fill-current"></i>
+                            <i data-feather="star" class="fill-current"></i>
+                            <i data-feather="star" class="fill-current"></i>
+                        </div>
+                    </div>
+                    <blockquote class="text-xl italic mb-6">
+                        "Professional, tidy, and quick. Our new cupboards are absolute perfection. Joachim delivered ahead of schedule despite challenges."
+                    </blockquote>
+                    <div class="flex items-center">
+                        <div class="mr-4 text-xl">—</div>
+                        <div>
+                            <div class="font-bold">A. Naidoo</div>
+                            <div class="text-white text-opacity-80">Hayfields</div>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Testimonial Item -->
+                <div class="bg-white bg-opacity-10 p-8 rounded-2xl min-w-[90%] md:min-w-[60%] lg:min-w-[45%] flex-shrink-0">
+                    <div class="flex mb-6">
+                        <div class="flex text-accent">
+                            <i data-feather="star" class="fill-current"></i>
+                            <i data-feather="star" class="fill-current"></i>
+                            <i data-feather="star" class="fill-current"></i>
+                            <i data-feather="star" class="fill-current"></i>
+                            <i data-feather="star" class="fill-current"></i>
+                        </div>
+                    </div>
+                    <blockquote class="text-xl italic mb-6">
+                        "Got three quotes for our deck and FastMove provided the most detailed analysis. Their honesty about timber choices saved us money."
+                    </blockquote>
+                    <div class="flex items-center">
+                        <div class="mr-4 text-xl">—</div>
+                        <div>
+                            <div class="font-bold">T. Govender</div>
+                            <div class="text-white text-opacity-80">Pelham</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="text-center mt-12">
+                <a href="quote.html" class="inline-flex items-center justify-center px-8 py-4 bg-accent text-neutral-dark font-semibold rounded-lg hover:bg-white transition-all">
+                    Start Your Project
+                    <i data-feather="arrow-right" class="ml-2 w-5 h-5"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="py-20 bg-white">
+        <div class="container mx-auto px-4">
+            <div class="text-center mb-16">
+                <h2 class="text-4xl font-heading font-bold mb-6">Frequently Asked Questions</h2>
+                <p class="text-lg max-w-2xl mx-auto">Answers to common queries from Pietermaritzburg homeowners</p>
+            </div>
+            
+            <div class="max-w-3xl mx-auto">
+                <!-- FAQ Item -->
+                <div class="accordion-item border-b border-gray-200 py-7">
+                    <button class="accordion-header w-full flex justify-between items-start">
+                        <div class="text-xl font-semibold text-left pr-4">Do you provide free quotes?</div>
+                        <span class="accordion-icon">
+                            <i data-feather="chevron-down"></i>
+                        </span>
+                    </button>
+                    <div class="accordion-content overflow-hidden transition-all max-h-0">
+                        <div class="pt-4 text-gray-600">
+                            <p>Yes. We offer free remote consultations and quotes. Site visits within Pietermaritzburg include a refundable R250 call-out fee that's fully credited back to your project if you proceed with work.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- FAQ Items... -->
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Banner -->
+    <section class="py-16 bg-neutral-dark text-white">
+        <div class="container mx-auto px-4 text-center">
+            <h2 class="text-3xl md:text-4xl font-heading font-bold mb-6">Ready for Fast, Quality Carpentry?</h2>
+            <p class="text-xl max-w-2xl mx-auto mb-10">Transform your home with custom woodwork solutions. Get cost estimates within 24 hours.</p>
+            <div class="flex flex-col sm:flex-row justify-center items-center gap-6">
+                <a href="quote.html" class="bg-accent text-neutral-dark px-8 py-4 rounded-lg font-semibold text-lg transition-all hover:bg-white">Get Your Free Quote</a>
+                <div class="flex items-center">
+                    <i data-feather="phone" class="mr-2 text-accent"></i>
+                    <span class="font-semibold">Call us: <a href="tel:+27-XX-XXX-XXXX" class="text-white hover:text-accent transition">+27-XX-XXX-XXXX</a></span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-neutral-dark text-white pt-16 pb-10">
+        <div class="container mx-auto px-4">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <div class="md:col-span-2">
+                    <div class="logo-mark mb-4">
+                        <div class="monogram">JFC</div>
+                        <h1 class="text-xl font-semibold">FastMove <span class="text-accent">Carpenters</span></h1>
+                    </div>
+                    <p class="text-gray-400 mb-4 max-w-md">Professional carpentry services for KwaZulu-Natal homes and businesses. Proudly serving Pietermaritzburg since 2024.</p>
+                    <div class="mb-4">
+                        <div class="flex items-center mb-2">
+                            <i data-feather="map-pin" class="w-4 h-4 mr-2 text-accent"></i>
+                            <p>19 Syndicate, Pietermaritzburg, KZN, 3201</p>
+                        </div>
+                        <div class="flex items-center mb-2">
+                            <i data-feather="phone" class="w-4 h-4 mr-2 text-accent"></i>
+                            <a href="tel:+27-XX-XXX-XXXX" class="hover:text-accent transition">+27-XX-XXX-XXXX</a>
+                        </div>
+                        <div class="flex items-center">
+                            <i data-feather="mail" class="w-4 h-4 mr-2 text-accent"></i>
+                            <a href="mailto:hello@fastmovecarpenters.co.za" class="hover:text-accent transition">hello@fastmovecarpenters.co.za</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <div>
+                    <h3 class="font-heading font-bold text-lg mb-4 text-accent">Quick Links</h3>
+                    <ul class="space-y-2">
+                        <li><a href="index.html" class="hover:text-accent transition">Home</a></li>
+                        <li><a href="services.html" class="hover:text-accent transition">Services</a></li>
+                        <li><a href="portfolio.html" class="hover:text-accent transition">Portfolio</a></li>
+                        <li><a href="pricing.html" class="hover:text-accent transition">Pricing Guide</a></li>
+                        <li><a href="about.html" class="hover:text-accent transition">About Us</a></li>
+                        <li><a href="contact.html" class="hover:text-accent transition">Contact</a></li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h3 class="font-heading font-bold text-lg mb-4 text-accent">Our Location</h3>
+                    <div class="map-container bg-gray-300">
+                        <div class="map-overlay"></div>
+                    </div>
+                    <div class="mt-4">
+                        <h4 class="font-bold text-white mb-1">Hours:</h4>
+                        <p class="text-gray-300">Mon-Fri: 8AM-5PM</p>
+                        <p class="text-gray-300">Saturday: 8AM-1PM</p>
+                    </div>
+                    <a href="https://wa.me/27XXXXXXXXX" class="mt-4 inline-flex items-center justify-center px-4 py-3 bg-primary rounded-md hover:bg-opacity-90 transition w-full">
+                        <i data-feather="message-square" class="w-5 h-5 mr-2"></i> Message us
+                    </a>
+                </div>
+            </div>
+            
+            <div class="border-t border-gray-700 mt-10 pt-6">
+                <div class="flex flex-col md:flex-row justify-between items-center gap-4">
+                    <div class="text-gray-400 text-sm">
+                        Reg No.: 2024/791366/07 | Tax No.: 9213686273 &copy; 2024 Joachim FastMove Carpenters
+                    </div>
+                    <div class="flex space-x-4">
+                        <a href="#" class="text-gray-400 hover:text-white transition">
+                            <i data-feather="facebook"></i>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-white transition">
+                            <i data-feather="instagram"></i>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-white transition">
+                            <i data-feather="linkedin"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Floating WhatsApp -->
+    <a href="https://wa.me/27XXXXXXXXX" class="whatsapp-fixed hidden md:flex">
+        <div class="whatsapp-icon w-14 h-14 rounded-full flex items-center justify-center">
+            <i data-feather="message-square" width="24" height="24"></i>
+        </div>
+    </a>
+
+    <!-- Scripts -->
+</body>
+</html>

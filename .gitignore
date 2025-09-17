@@ -1,0 +1,14 @@
+# OS
+.DS_Store
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Build output (if added later)
+dist/
+build/
+
+# Node modules (if tooling added later)
+node_modules/

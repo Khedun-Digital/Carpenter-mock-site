@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en-ZA">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | FastMove Carpenters</title>
+    <meta name="description" content="Contact FastMove Carpenters in Pietermaritzburg for carpentry quotes and consultations.">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/feather-icons/dist/feather.min.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <script defer src="assets/js/main.js"></script>
+</head>
+<body class="font-body text-neutral-dark bg-white">
+    <!-- Navigation Bar -->
+    <nav class="sticky top-0 z-40 bg-white shadow-sm">
+        <div class="container mx-auto px-4 py-4 flex justify-between items-center">
+            <div class="logo-mark">
+                <div class="monogram">JFC</div>
+                <h1 class="text-xl font-semibold">FastMove <span class="text-primary">Carpenters</span></h1>
+            </div>
+            <div class="hidden md:flex space-x-8">
+                <a href="index.html" class="nav-link font-medium">Home</a>
+                <a href="services.html" class="nav-link font-medium">Services</a>
+                <a href="portfolio.html" class="nav-link font-medium">Portfolio</a>
+                <a href="pricing.html" class="nav-link font-medium">Pricing</a>
+                <a href="about.html" class="nav-link font-medium">About</a>
+                <a href="contact.html" class="nav-link font-medium">Contact</a>
+                <a href="quote.html" class="bg-primary text-white px-6 py-2 rounded-md font-semibold transition-all hover:bg-opacity-90">Get a Quote</a>
+            </div>
+            <div class="md:hidden">
+                <button id="menu-toggle">
+                    <i data-feather="menu"></i>
+                </button>
+            </div>
+        </div>
+        <div id="mobile-menu" class="md:hidden hidden border-t border-gray-200 bg-white">
+            <div class="px-4 py-3 space-y-2">
+                <a href="index.html" class="block">Home</a>
+                <a href="services.html" class="block">Services</a>
+                <a href="portfolio.html" class="block">Portfolio</a>
+                <a href="pricing.html" class="block">Pricing</a>
+                <a href="about.html" class="block">About</a>
+                <a href="contact.html" class="block">Contact</a>
+                <a href="quote.html" class="block font-semibold text-primary">Get a Quote</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Contact Hero -->
+    <section class="py-32 bg-gradient-to-r from-primary to-neutral-dark relative overflow-hidden">
+        <div class="absolute inset-0 bg-hero-contact bg-cover opacity-20 bg-center"></div>
+        <div class="container mx-auto px-4 z-10">
+            <div class="max-w-4xl mx-auto text-center text-white">
+                <h1 class="text-4xl md:text-5xl font-heading font-bold mb-6">Connect With Our Team</h1>
+                <p class="text-xl max-w-2xl mx-auto mb-8">Reach out to discuss your carpentry project in Pietermaritzburg</p>
+                <div class="flex justify-center gap-4">
+                    <a href="tel:+27-XX-XXX-XXXX" class="flex items-center gap-2 px-6 py-3 bg-white bg-opacity-10 hover:bg-opacity-20 rounded-lg transition">
+                        <i data-feather="phone"></i> Call: +27-XX-XXX-XXXX
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Form -->
+    <section class="py-20">
+        <div class="container mx-auto px-4">
+            <div class="max-w-4xl mx-auto">
+                <div class="text-center mb-16">
+                    <h2 class="text-4xl font-heading font-bold mb-6">Send Us Your Project Details</h2>
+                    <p class="text-lg max-w-2xl mx-auto">Complete the form and our team will contact you within <span class="font-semibold">24 business hours</span> to discuss your requirements.</p>
+                </div>
+                
+                <form class="bg-light rounded-2xl p-8 md:p-12">
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
+                        <div>
+                            <label for="fullname" class="block mb-2 font-semibold">Full Name</label>
+                            <input type="text" id="fullname" class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-accent focus:border-transparent">
+                        </div>
+                        <div>
+                            <label for="email" class="block mb-2 font-semibold">Email Address</label>
+                            <input type="email" id="email" class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-accent focus:border-transparent">
+                        </div>
+                        <div>
+                            <label for="phone" class="block mb-2 font-semibold">Phone Number</label>
+                            <input type="tel" id="phone" class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-accent focus:border-transparent">
+                        </div>
+                        <div>
+                            <label for="address" class="block mb-2 font-semibold">Project Address</label>
+                            <input type="text" id="address" class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-accent focus:border-transparent" placeholder="Suburb or Street">
+                        </div>
+                    </div>
+                    
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
+                        <div>
+                            <label for="service" class="block mb-2 font-semibold">Service Needed</label>
+                            <select id="service" class="w-full px-4 py-3 rounded-lg border border-gray-300 focus:outline-none focus:ring-2 focus:ring-accent focus:border-transparent">
+                                <option value="">Select service</option>
+                                <option value="kitchens">Kitchens & Cabinetry</option>
+                                <option value="cupboards">Built-in Cupboards</option>
+                                <option value="doors">Doors & Frames</option>
+                                <option value="decking">Decking & Exterior</option>
+                                <option value="repairs">Repairs & Refinishing</option>
+                                <option value="shopfitting">Shopfitting & Office</option>
+                            </select>
+                        </div>
+                        <div>
+                            <label class="block mb-2 font-semibold">How soon? (required)</label>
+                            <div class="grid grid-cols-2 gap-3">
+                                <!-- Timeline options -->
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Form continues ... -->
+                    
+                    <div class="mt-10">
+                        <button type="submit" class="w-full bg-primary text-white px-6 py-4 text-center rounded-lg font-semibold hover:bg-opacity-90 transition text-lg">
+                            Request On-site Quote
+                        </button>
+                        <p class="text-center text-gray-500 mt-4 text-sm">
+                            We'll contact you within 24 hours to schedule your site inspection
+                        </p>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Info -->
+    <section class="py-16 bg-neutral-dark text-white">
+        <div class="container mx-auto px-4">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto">
+                <div class="flex flex-col items-center text-center">
+                    <div class="w-16 h-16 rounded-full bg-primary flex items-center justify-center mb-4">
+                        <i data-feather="map-pin" class=""></i>
+                    </div>
+                    <h3 class="font-bold text-xl mb-2">Our Workshop</h3>
+                    <p class="text-gray-300">19 Syndicate<br>Pietermaritzburg, KZN<br>3201</p>
+                </div>
+                
+                <!-- Other contact points... -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-neutral-dark text-white pt-16 pb-10">
+        <div class="container mx-auto px-4">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <div class="md:col-span-2">
+                    <div class="logo-mark mb-4">
+                        <div class="monogram">JFC</div>
+                        <h1 class="text-xl font-semibold">FastMove <span class="text-accent">Carpenters</span></h1>
+                    </div>
+                    <p class="text-gray-400 mb-4 max-w-md">Professional carpentry services for KwaZulu-Natal homes and businesses. Proudly serving Pietermaritzburg since 2024.</p>
+                    <div class="mb-4">
+                        <div class="flex items-center mb-2">
+                            <i data-feather="map-pin" class="w-4 h-4 mr-2 text-accent"></i>
+                            <p>19 Syndicate, Pietermaritzburg, KZN, 3201</p>
+                        </div>
+                        <div class="flex items-center mb-2">
+                            <i data-feather="phone" class="w-4 h-4 mr-2 text-accent"></i>
+                            <a href="tel:+27-XX-XXX-XXXX" class="hover:text-accent transition">+27-XX-XXX-XXXX</a>
+                        </div>
+                        <div class="flex items-center">
+                            <i data-feather="mail" class="w-4 h-4 mr-2 text-accent"></i>
+                            <a href="mailto:hello@fastmovecarpenters.co.za" class="hover:text-accent transition">hello@fastmovecarpenters.co.za</a>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <h3 class="font-heading font-bold text-lg mb-4 text-accent">Quick Links</h3>
+                    <ul class="space-y-2">
+                        <li><a href="index.html" class="hover:text-accent transition">Home</a></li>
+                        <li><a href="services.html" class="hover:text-accent transition">Services</a></li>
+                        <li><a href="portfolio.html" class="hover:text-accent transition">Portfolio</a></li>
+                        <li><a href="pricing.html" class="hover:text-accent transition">Pricing Guide</a></li>
+                        <li><a href="about.html" class="hover:text-accent transition">About Us</a></li>
+                        <li><a href="contact.html" class="hover:text-accent transition">Contact</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="font-heading font-bold text-lg mb-4 text-accent">Our Location</h3>
+                    <div class="map-container bg-gray-300">
+                        <div class="map-overlay"></div>
+                    </div>
+                    <div class="mt-4">
+                        <h4 class="font-bold text-white mb-1">Hours:</h4>
+                        <p class="text-gray-300">Mon-Fri: 8AM-5PM</p>
+                        <p class="text-gray-300">Saturday: 8AM-1PM</p>
+                    </div>
+                    <a href="https://wa.me/27XXXXXXXXX" class="mt-4 inline-flex items-center justify-center px-4 py-3 bg-primary rounded-md hover:bg-opacity-90 transition w-full">
+                        <i data-feather="message-square" class="w-5 h-5 mr-2"></i> Message us
+                    </a>
+                </div>
+            </div>
+            <div class="border-t border-gray-700 mt-10 pt-6">
+                <div class="flex flex-col md:flex-row justify-between items-center gap-4">
+                    <div class="text-gray-400 text-sm">
+                        Reg No.: 2024/791366/07 | Tax No.: 9213686273 &copy; 2024 Joachim FastMove Carpenters
+                    </div>
+                    <div class="flex space-x-4">
+                        <a href="#" class="text-gray-400 hover:text-white transition">
+                            <i data-feather="facebook"></i>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-white transition">
+                            <i data-feather="instagram"></i>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-white transition">
+                            <i data-feather="linkedin"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+</body>
+</html>
